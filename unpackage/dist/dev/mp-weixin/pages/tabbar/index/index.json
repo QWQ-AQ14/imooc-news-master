@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "慕课新闻",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "tab": "/components/tab/tab",
+    "list": "/components/list/list"
+  }
+}

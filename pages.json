@@ -1,0 +1,80 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "慕课新闻"
+			}
+		}, {
+			"path": "pages/tabbar/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/tabbar/follow/follow",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "关注"
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/label/label",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "标签管理"
+			}
+		}, {
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "文章详情"
+			}
+		}, {
+			"path": "pages/comments/comments",
+			"style": {
+				"navigationBarTitleText": "评论详情"
+			}
+		}, {
+			"path": "pages/my-article/my-article",
+			"style": {
+				"navigationBarTitleText": "我的手记"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666",
+		"backgroundColor": "#fff",
+		"selectedColor": "#f07373",
+		"list": [{
+				"pagePath": "pages/tabbar/index/index",
+				"text": "首页",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home-active.png"
+			},
+			{
+				"pagePath": "pages/tabbar/follow/follow",
+				"text": "关注",
+				"iconPath": "static/follow.png",
+				"selectedIconPath": "static/follow-active.png"
+			},
+			{
+				"pagePath": "pages/tabbar/my/my",
+				"text": "我的",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my-active.png"
+			}
+		]
+	}
+}
